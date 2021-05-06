@@ -173,8 +173,6 @@ export default {
         },
 
         clear() {
-            this.hasSelection = false;
-
             // Clear the file input by removing the element and re-rendering (via v-if)
             this.renderInput = false;
 
